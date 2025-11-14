@@ -1,0 +1,37 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+:root {
+  --primary-color: #E87D0E;
+  --dark-blue: #252B36;
+  --text-color: #333;
+  --background-color: #FAF7F2;
+  --max-width: 1200px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+/* --- Вот ключевые изменения --- */
+
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Задаем минимальную высоту в 100% экрана */
+}
+
+.main-content {
+  flex: 1; /* Заставляем main занимать все доступное пространство */
+}
+
+/* ----------------------------- */
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 20px;
+}

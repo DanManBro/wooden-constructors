@@ -1,0 +1,88 @@
+.footer {
+  background-color: var(--dark-blue);
+  color: #a9b3c1;
+  padding-top: 60px;
+}
+
+.footerContent {
+  display: grid;
+  grid-template-columns: 2fr 1.5fr 1fr 1fr;
+  gap: 40px;
+  padding-bottom: 40px;
+}
+
+.footer h4 {
+  color: white;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+.footer a {
+  color: #a9b3c1;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: white;
+}
+
+.logo {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.about p {
+  line-height: 1.6;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 15px;
+}
+
+.socialIcons span {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #4a5468;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.socialIcons span:hover {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.footerBottom {
+  padding: 20px 0;
+  border-top: 1px solid #4a5468;
+  font-size: 14px;
+}
+
+.footerBottom > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.legalLinks {
+  display: flex;
+  gap: 20px;
+}
