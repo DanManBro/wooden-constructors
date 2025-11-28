@@ -1,0 +1,64 @@
+.authWrapper {
+  max-width: 400px;
+  margin: 60px auto 100px;
+  background-color: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+  color: var(--text-color);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.inputGroup label {
+  font-weight: 500;
+  font-size: 14px;
+  color: #666;
+}
+
+.inputGroup input {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 16px;
+  font-family: inherit;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.inputGroup input:focus {
+  border-color: var(--primary-color);
+}
+
+/* Растягиваем кнопку на всю ширину */
+.form button {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.footerText {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.footerText a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 600;
+}

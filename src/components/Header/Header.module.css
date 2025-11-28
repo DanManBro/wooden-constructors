@@ -63,3 +63,10 @@
   gap: 20px;
   cursor: pointer;
 }
+
+.iconLink {
+  text-decoration: none;
+  color: inherit; /* Наследует цвет родителя */
+  display: flex;
+  align-items: center;
+}
